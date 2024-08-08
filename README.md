@@ -1,4 +1,4 @@
-# Team 01 - Piscine SQL
+# Team 01 — SQL Bootcamp
 
 ## _Data Warehouse_
 
@@ -15,9 +15,9 @@ Resume: Today you will know what DWH is and how to create a first ETL process.
 3. [Chapter III](#chapter-iii) \
     3.1. [Rules of the day](#rules-of-the-day)  
 4. [Chapter IV](#chapter-iv) \
-    4.1. [Exercise 00 - Classical DWH](#exercise-00-classical-dwh)  
+    4.1. [Exercise 00 — Classical DWH](#exercise-00-classical-dwh)  
 5. [Chapter V](#chapter-v) \
-    5.1. [Exercise 01 - Detailed Query](#exercise-01-detailed-query)  
+    5.1. [Exercise 01 — Detailed Query](#exercise-01-detailed-query)  
 
 ## Chapter I
 ## Preamble
@@ -78,7 +78,7 @@ Absolutely anything can be represented in SQL! Let's get started and have fun!
 
 
 ## Chapter IV
-## Exercise 00 - Classical DWH
+## Exercise 00 — Classical DWH
 
 | Exercise 00: Classical DWH|                                                                                                                          |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
@@ -87,7 +87,7 @@ Absolutely anything can be represented in SQL! Let's get started and have fun!
 | **Allowed**                               |                                                                                                                          |
 | Language                        |  SQL|
 
-Let's take a look at the data sources and the first logical data layer (ODS - Operational Data Store) in the DWH.
+Let's take a look at the data sources and the first logical data layer (ODS — Operational Data Store) in the DWH.
 
 ![T01_05](misc/images/T01_05.png)
 
@@ -211,7 +211,7 @@ See a sample of the output data below. Sort the result by User Name in descendin
 
 
 ## Chapter V
-## Exercise 01 - Detailed Query
+## Exercise 01 — Detailed Query
 
 | Exercise 01: Detailed Query|                                                                                                                          |
 |---------------------------------------|--------------------------------------------------------------------------------------------------------------------------|
