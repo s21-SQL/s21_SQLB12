@@ -1,21 +1,35 @@
 ## _Data Warehouse_
 
-Resume: Today you will know what DWH is and how to create a first ETL process.
+In this team project, you'll explore how data warehouses (DWH) work and go through the entire process of building an ETL pipeline.
+
+You'll write SQL queries that handle "imperfect" real-world data: finding missing values, joining information from different sources, and correctly aggregating metrics. These skills will prepare you for future tasks like building ETL pipelines, analyzing historical data, and preparing data for reporting — essential capabilities for almost any data team.
+
 
 💡 [Tap here](https://new.oprosso.net/p/4cb31ec3f47a4596bc758ea1861fb624) **to leave your feedback on the project**. It's anonymous and will help our team make your educational experience better. We recommend completing the survey immediately after the project.
 
 ## Contents
 
+- [How to learn at «School 21»](#how-to-learn-at-«school-21»)
 - [Chapter I](#chapter-i)
-    - [Preamble](#preamble)
+- [Preamble](#preamble)
 - [Chapter II](#chapter-ii)
-    - [General Rules](#general-rules)
+- [Rules of the day](#rules-of-the-day)
 - [Chapter III](#chapter-iii)
-    - [Rules of the day](#rules-of-the-day)
-- [Chapter IV](#chapter-iv)
-    - [Exercise 00 — Classical DWH](#exercise-00--classical-dwh)
-- [Chapter V](#chapter-v)
-    - [Exercise 01 — Detailed Query](#exercise-01--detailed-query)
+- [Exercise 00 — Classical DWH](#exercise-00--classical-dwh)
+- [Exercise 01 — Detailed Query](#exercise-01--detailed-query)
+
+    ## How to learn at «School 21»
+1. «School 21» might feel different from your previous educational experiences. It emphasizes high autonomy: you’re given a task, and you must complete it. Throughout the course, you are expected to delve deeper into the subject and solve problems. Use all available means to find information—the resources of the internet are limitless. Be mindful of your sources (for example, if you use AI tools): verify, think, analyze, and compare.
+2. You will need to present your solution to other students and receive feedback from them. Peer-to-peer (P2P) learning is a process where students exchange knowledge and experience, simultaneously acting as both mentors and learners. This way you can learn not only from materials but also from each other.
+3. Don’t hesitate to ask for help: around you are peers who are also navigating this path for the first time. Likewise, don’t be afraid to respond to requests for help—your experience is valuable and useful, so share it openly with others. Join RocketChat to stay updated with the latest community announcements.
+4. Your learning will be meaningless if you simply copy others’ solutions. If you receive help, always make sure you fully understand the why, how, and purpose behind it. Don’t be afraid to make mistakes.
+5. If you’re stuck on something and feel like you’ve tried everything but still don’t know what to do—just take a break! Believe it or not, this advice has helped many professionals in their work. Step away, clear your mind, and the right solution might just come to you next time!
+6. The learning process is just as important as the result. It’s not just about solving the task—it’s about understanding how to solve it.
+
+How to work with the project: 
+1. Before starting, clone the project from GitLab into a repository of the same name.
+2. All code files must be created in the src/ folder of the cloned repository.
+3. After cloning, create a develop branch and push changes to it in GitLab. Push to GitLab in the develop branch as well.
 
 ## Chapter I
 ## Preamble
@@ -50,32 +64,20 @@ Let's look at the list of existing Data Models Patterns:
 
 
 ## Chapter II
-## General Rules
-
-- Use this page as your only reference. Do not listen to rumors and speculations about how to prepare your solution.
-- Make sure you are using the latest version of PostgreSQL.
-- It is perfectly fine if you use the IDE to write source code (aka SQL script).
-- To be evaluated, your solution must be in your GIT repository.
-- Your solutions will be evaluated by your peers.
-- You should not leave any files in your directory other than those explicitly specified by the exercise instructions. It is recommended that you modify your `.gitignore` to avoid accidents.
-- Got a question? Ask your neighbor to the right. Otherwise, try your neighbor on the left.
-- Your reference manual: mates / Internet / Google. 
-- Read the examples carefully. You may need things not specified in the topic.
-- And may the SQL-Force be with you!
-Absolutely anything can be represented in SQL! Let's get started and have fun!
-
-## Chapter III
 ## Rules of the day
 
 - Please make sure you have your own database and access to it on your PostgreSQL cluster. 
 - All tasks contain a list of Allowed and Denied sections with listed database options, database types, SQL constructions etc. Please have a look at the section before you start.
 - Please download a [script](materials/rush01_model.sql) with Database Model here and apply the script to your database (you can use command line with psql or just run it through any IDE, for example DataGrip from JetBrains or pgAdmin from PostgreSQL community). 
 - Please take a look at the Logical View of our Database Model. 
+- And may the SQL-Force be with you!
+- Absolutely anything can be represented in SQL! Let's get started and have fun!
+
 
 ![schema](misc/images/schema.png)
 
 
-## Chapter IV
+## Chapter III
 ## Exercise 00 — Classical DWH
 
 | Exercise 00: Classical DWH|                                                                                                                          |
@@ -208,7 +210,6 @@ See a sample of the output data below. Sort the result by User Name in descendin
 | ... | ... | ... | ... | ... | ... | ... |
 
 
-## Chapter V
 ## Exercise 01 — Detailed Query
 
 | Exercise 01: Detailed Query|                                                                                                                          |
